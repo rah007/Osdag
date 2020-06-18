@@ -1,6 +1,6 @@
 """created on 19-01-2018
 
-@author: Siddhesh C.
+@author: Rahul Benal
 """
 from Connections.Component.bolt import Bolt
 from Connections.Component.nut import Nut
