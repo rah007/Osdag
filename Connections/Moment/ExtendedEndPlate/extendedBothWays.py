@@ -1,7 +1,7 @@
 """
 Initialized on 22-01-2018
 Commenced on 16-02-2018
-@author: Siddhesh S. Chavan
+@author: Rahul Benal
 """""
 
 import numpy
@@ -522,17 +522,13 @@ class ExtendedBothWays(object):
 #############################################################################################################
     def get_beam_models(self):
         '''
-
         Returns: Returns model of beam (left and right)
-
         '''
         return [self.beamRModel, self.beamLModel]
 
     def get_connector_models(self):
         '''
-
         Returns: Returns model related to connector (plates and weld)
-
         '''
         return [self.plateRModel, self.plateLModel, self.bbWeldAbvFlang_11Model, self.bbWeldAbvFlang_12Model,
                 self.bbWeldAbvFlang_21Model, self.bbWeldAbvFlang_22Model, self.bbWeldBelwFlang_11Model, self.bbWeldBelwFlang_12Model,
@@ -547,9 +543,7 @@ class ExtendedBothWays(object):
 
     def get_models(self):
         '''
-
         Returns: Returns model related to complete model (beams, plates and weld)
-
         '''
         return [self.beamRModel, self.beamLModel, self.plateRModel, self.plateLModel, self.bbWeldAbvFlang_11Model, self.bbWeldAbvFlang_12Model,
                 self.bbWeldAbvFlang_21Model, self.bbWeldAbvFlang_22Model, self.bbWeldBelwFlang_11Model, self.bbWeldBelwFlang_12Model,
